@@ -61,3 +61,4 @@ current_temp = plc.Sicaklik  # Okuma
 
 
 /Docs: Protokol detayları ve kurulum adımları.
+
