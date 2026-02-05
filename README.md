@@ -1,7 +1,7 @@
 CODESYS-Python TCP Communication Bridge
 Bu proje, CODESYS V3.5 tabanlı sanal PLC'ler ile Python arasında yüksek hızlı, esnek ve nesne yönelimli bir haberleşme köprüsü kurmanızı sağlar. Statik veri yapıları yerine CODESYS'in Symbol Configuration özelliğini kullanarak değişkenlerin bellek adreslerini (offset) dinamik olarak eşleştirir.
 
-🚀 Özellikler
+# 🚀 Özellikler
 
 Dinamik Veri Eşleştirme: PLC tarafındaki ST_Data yapısı değişse bile Python tarafında kod değişikliği yapmadan veriye erişim.
 
@@ -14,7 +14,7 @@ Hata Yönetimi: Bağlantı kopmaları ve geçersiz paketler için yerleşik hata
 
 Performans: TCP protokolü üzerinden düşük gecikmeli veri transferi.
 
-🛠 Gereksinimler
+# 🛠 Gereksinimler
 PLC Tarafı
 CODESYS V3.5 veya üzeri.
 
@@ -29,7 +29,7 @@ Python 3.x
 
 PLCProxy kütüphanesi (Dosya içerisinde mevcuttur).
 
-📦 Kurulum ve Kullanım
+# 📦 Kurulum ve Kullanım
 1. PLC Yapılandırması
 
 ST_Data yapısını kendi ihtiyacınıza göre düzenleyin.
@@ -58,5 +58,6 @@ current_temp = plc.Sicaklik  # Okuma
 
 
 /Python: PLCManager ve örnek test scriptleri.
+
 
 /Docs: Protokol detayları ve kurulum adımları.
