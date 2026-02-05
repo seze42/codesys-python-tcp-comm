@@ -1,4 +1,4 @@
-CODESYS-Python TCP Communication Bridge
+## CODESYS-Python TCP Communication Bridge
 Bu proje, CODESYS V3.5 tabanlı sanal PLC'ler ile Python arasında yüksek hızlı, esnek ve nesne yönelimli bir haberleşme köprüsü kurmanızı sağlar. Statik veri yapıları yerine CODESYS'in Symbol Configuration özelliğini kullanarak değişkenlerin bellek adreslerini (offset) dinamik olarak eşleştirir.
 
 # 🚀 Özellikler
@@ -61,4 +61,5 @@ current_temp = plc.Sicaklik  # Okuma
 
 
 /Docs: Protokol detayları ve kurulum adımları.
+
 
